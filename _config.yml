@@ -19,15 +19,20 @@ description: >
   A blog about ruby / haskell / webdev. Mostly in russian
 baseurl: ""
 url: "https://jelf.github.io"
-twitter_username: BruOverseer
+
+twitter:
+  username: &twitter_username BruOverseer 
+twitter_username: *twitter_username
 github_username:  jelf
 timezone: Europe/Moscow
+
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
