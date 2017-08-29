@@ -21,10 +21,13 @@ baseurl: ""
 url: "https://jelf.github.io"
 
 twitter:
-  username: &twitter_username BruOverseer 
+  username: &twitter_username BruOverseer
 twitter_username: *twitter_username
 github_username:  jelf
 timezone: Europe/Moscow
+
+google_analytics: UA-105581925-1
+
 
 
 # Build settings
