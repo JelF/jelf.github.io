@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Давайте использовать стейт правильно
-date:   2017-09-11 18:44
+date:   2017-09-17 21:30
 categories: ru haskell
 ---
 

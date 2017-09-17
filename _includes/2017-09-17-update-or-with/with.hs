@@ -35,6 +35,7 @@ log severity' text = do
 runLogger :: Logger -> Reader.ReaderT Logger IO () -> IO ()
 runLogger = flip Reader.runReaderT
 
+
 --- example
 
 main :: IO ()
