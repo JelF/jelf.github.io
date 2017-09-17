@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: My regular naggy posts
-email: begdory4@gmail.com
+email: &email jelf.personal@zoho.eu
 description: >
   A blog about ruby / haskell / webdev. Mostly in russian
 baseurl: ""
@@ -28,7 +28,7 @@ timezone: Europe/Moscow
 
 google_analytics: UA-105581925-1
 
-
+author: JelF <jelf.personal@zoho.eu>
 
 # Build settings
 markdown: kramdown
