@@ -1,0 +1,20 @@
+graph "interface-via-decorator" {
+  Animal -- Cat [dir=forward];
+  Animal -- Dog [dir=forward];
+  Dog -- Doge [dir=forward];
+
+  Animal -- AnimalVoice [style=dashed];
+  { rank=same; Animal; AnimalVoice }
+
+  Dog -- DogVoice [style=dashed];
+  AnimalVoice -- DogVoice [dir=forward];
+  { rank=same; Dog; DogVoice }
+
+  Cat -- CatVoice [style=dashed];
+  AnimalVoice -- CatVoice [dir=forward];
+  { rank=same; Cat; CatVoice }
+
+  Doge -- DogeVoice [style=dashed];
+  DogVoice -- DogeVoice [dir=forward];
+  { rank=same; Doge; DogeVoice }
+}
