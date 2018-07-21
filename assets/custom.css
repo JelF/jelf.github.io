@@ -1,0 +1,13 @@
+dt {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+dd {
+  padding-left: 1em;
+  border-left-style: ridge;
+  border-left-width: 1em;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
