@@ -34,7 +34,7 @@ removePrimeMultipliersFromSlice ::
   EratosthenesSieveSlice -> Integer -> EratosthenesSieveSlice
 
 removePrimeMultipliersFromSlice slice prime =
-  let multipliers = takeWhile (< upper slice) $ iterate (+ prime) prime
+  let multipliers = iterate (+ prime) prime
   in EratosthenesSieveSlice{
     entities = entities slice `Ordered.minus` multipliers
   , lower = lower slice
